@@ -24,4 +24,11 @@ public class Person {
 		return maritalStatus;
 	}
 
+	@Override
+	public String toString() {
+
+		return "{name:" + name + ", gender:" + gender + ", marital status:"
+				+ maritalStatus + "}";
+	}
+
 }
